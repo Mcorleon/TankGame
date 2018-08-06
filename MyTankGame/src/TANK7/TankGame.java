@@ -27,8 +27,8 @@ public class TankGame extends JFrame
 
 	public static void main(String args[]) {
 		TankGame tankgame = new TankGame();
-		AePlayWave apw = new AePlayWave("./111.wav");
-		apw.start();
+		//AePlayWave apw = new AePlayWave("./111.wav");
+		//apw.start();
 	}
 
 	public TankGame() {
@@ -702,6 +702,7 @@ class Mypanel extends JPanel implements KeyListener, Runnable {
 	@Override
 	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
+
 
 	}
 
